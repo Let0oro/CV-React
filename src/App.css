@@ -1,0 +1,129 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  height: 30px;
+  margin: 20px;
+  
+}
+
+button {
+  font-family: 'Fira Code';
+  background: #444;
+  padding: 5px;
+  border-radius: 10px;
+  color: wheat;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+.mas_info {
+  height: 25px;
+  width: 25px;
+  margin-top: -180px;  
+  margin-left: 500px;
+  border-radius: 50%;
+
+  z-index: 100;
+
+  transition: all .5s ease-in-out;
+}
+
+.mas_info--activate {
+  height: 25px;
+  width: 25px;
+  margin-top: -180px;  
+  margin-left: 200px;
+  border-radius: 50%;
+  transition: all .5s ease-in-out;
+}
+
+.Changer {
+  height: 300px;
+  width: 500px;
+  
+  border-radius: 10% / 15% ;
+
+  background-color: #f5deb39c;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2vh;
+
+  z-index: 100;
+
+  transition: all .5s ease-in-out ;  
+}
+
+.Changer--activate {
+
+  height: 300px;
+  width: 500px;
+  
+  border-radius: 10% / 15% ;
+  
+  background-color: #f5deb39c;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2vh;
+
+  margin-left: -300px;
+
+  transition: all .5s ease-in-out ;
+
+}
+
+.sk-lang {
+  margin-top: 5vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.sk {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: #ff7f509c;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lg {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #ff7f509c;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

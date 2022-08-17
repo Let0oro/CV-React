@@ -1,0 +1,11 @@
+h2 {
+    font-family: 'Fira Code';
+    text-decoration: underline;
+}
+
+.Education__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5vh;
+}
